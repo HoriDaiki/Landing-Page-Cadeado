@@ -1,0 +1,111 @@
+body{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(254,0,52,1) 100%); 
+    display:block;
+}
+
+img{
+    width: 20%;
+    height: auto;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.cadeado{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Chivo Mono', monospace;
+    font-size:100px;
+    width: 30%;
+    height: 20%;
+}
+
+ul{
+    color:rgb(255, 255, 255);
+    font-size:30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+li{
+    margin:10%;
+}
+
+footer{
+    background-color:#241f31;
+    width: 50%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50%;
+    border-radius: 5%;
+}
+
+h3{
+    font-family: 'Chivo Mono', monospace;
+    font-size:75px;
+    text-align: center;
+}
+
+.campo{
+    border-radius: 50px;
+    background: #241f31;
+    box-shadow:  13px 13px 46px #0e0c14,
+             -13px -13px 46px #3a324e;
+    border:none;
+    width: 200px;
+}
+
+button{
+    margin-bottom: 100%;
+
+}
+
+button {
+    padding: 50px 70px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #btn:hover,:focus {
+    color: #ffffff;
+    background: #00ff84;
+    border: 1px solid #00ff84;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #00ff84,
+                0 0 20px #00ff84,
+                0 0 50px #00ff84,
+                0 0 100px #00ff84;
+  }
+
+
+
